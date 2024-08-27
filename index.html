@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazamos el archivo CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../Img/logo.png" alt="Logo" class="logo"> <!-- Asegúrate de cambiar 'ruta/a/tu/logo.png' por la ruta correcta de tu logo -->
+            <h1>Encriptación Segura</h1> <!-- Título del logo -->
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="container">
+            <textarea id="inputText" placeholder="Ingresa tu texto aquí..."></textarea> <!-- Área de texto para ingresar el texto -->
+            <button onclick="encryptText()">ENCRIPTAR</button> <!-- Botón para encriptar el texto -->
+            <button onclick="decryptText()">DESENCRIPTAR</button> <!-- Botón para desencriptar el texto -->
+        </div>
+        <div class="output" id="outputText"></div> <!-- Área donde se mostrará el texto encriptado/desencriptado -->
+    </div>
+    <script src="scripts.js"></script> <!-- Enlazamos el archivo JavaScript -->
+</body>
+</html>
